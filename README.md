@@ -66,7 +66,7 @@ proxy: [
 
 ```
 
-# 如果遇到报错 srcWidth
+# 如果遇到报错 startsWith
 
 * 修改 ：/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js 
 
@@ -74,13 +74,13 @@ proxy: [
 
 ```javascript
 if(key.startsWith(what))
-		this.data.delete(key);
+	this.data.delete(key);
 }
 ```
 
 改为
 ```javascript
 if(key && key.startsWith(what))
-		this.data.delete(key);
+	this.data.delete(key);
 }
 ```
