@@ -1,0 +1,21 @@
+.DS_Store
+node_modules/
+npm-debug.log
+.idea/
+.vscode/
+package-lock.json
+/src/images/coupon.png
+/src/images/delete.png
+/src/images/express_info.png
+/src/images/item_info.png
+/src/images/notify.png
+/src/images/open_pw.png
+/src/images/order_status.png
+/src/images/right arrow.png
+/src/images/address.png
+/src/images/call_express.png
+/src/images/call_phone.png
+/src/images/choose_icon_ding.png
+/src/images/choose_icon_edit.png
+/src/images/choose_icon_privacy.png
+/src/images/choose_icon_unlock.png

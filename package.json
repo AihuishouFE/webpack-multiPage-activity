@@ -1,0 +1,66 @@
+{
+  "name": "webpack-multiPage-activity",
+  "version": "1.0.0",
+  "description": "webpack-multiPage-activity",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./build/server.config.js",
+    "prod": "webpack  --config ./build/prod.config.js"
+  },
+  "keywords": [
+    "aihuishou",
+    "activity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AihuishouFE/webpack-multiPage-activity.git"
+  },
+  "author": "yinhuang",
+  "license": "MIT",
+  "devDependencies": {
+    "art-template-loader": "^1.4.3",
+    "autoprefixer": "^7.1.1",
+    "babel": "^6.23.0",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.0",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-regenerator": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "connect-history-api-fallback": "^1.3.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.4",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.15.3",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "glob": "^7.1.2",
+    "has-ansi": "^3.0.0",
+    "html-webpack-plugin": "^2.28.0",
+    "http-proxy-middleware": "^0.17.4",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.4",
+    "opn": "^5.1.0",
+    "process-nextick-args": "^1.0.7",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "util-deprecate": "^1.0.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-middleware": "^1.11.0",
+    "webpack-hot-middleware": "^2.18.0",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "art-template": "^4.12.1",
+    "axios": "^0.16.2",
+    "fastclick": "^1.0.6",
+    "iscroll": "^5.2.0",
+    "jsonp": "^0.2.1",
+    "page": "^1.7.1",
+    "path-to-regexp": "^1.7.0",
+    "url-search-params-polyfill": "^2.0.0"
+  }
+}

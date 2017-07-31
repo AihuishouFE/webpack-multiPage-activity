@@ -1,0 +1,1 @@
+document.querySelector('#app').innerHTML = 'aitivity2';
